@@ -43,7 +43,8 @@ int main()
 
     int f[n], ans[n], ind = 0; 
 
-    for (k = 0; k < n; k++) { 
+    for (k = 0; k < n; k++)
+    { 
 
         f[k] = 0; 
 
@@ -51,7 +52,8 @@ int main()
 
     int need[n][m]; 
 
-    for (i = 0; i < n; i++) { 
+    for (i = 0; i < n; i++)
+    { 
 
         for (j = 0; j < m; j++) 
 
@@ -61,17 +63,21 @@ int main()
 
     int y = 0; 
 
-    for (k = 0; k < 5; k++) { 
+    for (k = 0; k < 5; k++)
+    { 
 
-        for (i = 0; i < n; i++) { 
+        for (i = 0; i < n; i++)
+        { 
 
-            if (f[i] == 0) { 
+            if (f[i] == 0)
+            { 
 
   
 
                 int flag = 0; 
 
-                for (j = 0; j < m; j++) { 
+                for (j = 0; j < m; j++) 
+                { 
 
                     if (need[i][j] > avail[j]){ 
 
@@ -85,7 +91,8 @@ int main()
 
   
 
-                if (flag == 0) { 
+                if (flag == 0) 
+                { 
 
                     ans[ind++] = i; 
 
