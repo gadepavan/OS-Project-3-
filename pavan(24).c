@@ -37,7 +37,7 @@ int main()
 
   
 
-    int avail[4] = { 1, 3, 0, 0 }; // Available Resources 
+    int avail[4] = { 1, 5, 2, 0 }; // Available Resources 
 
   
 
