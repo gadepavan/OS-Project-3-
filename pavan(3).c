@@ -7,6 +7,7 @@ void main()
 {
 	int n;
 	printf("\n Input Thread \n");
+	printf("\n----------------\n");
 	printf("Enter a number: ");
 	scanf("%d",&n);
 
