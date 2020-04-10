@@ -20,7 +20,7 @@ void *thread1(void *arg)
 	printf("\n Output Thread \n");
 	printf("\nThe prime numbers less than or equal to the input number is \n");
 	int *number=(int *) arg;
-	int n,b,i;
+	int n,b,j;
 	
 	for(b=2;b<=*number;b++)
 	{
@@ -28,10 +28,10 @@ void *thread1(void *arg)
  	 i=2;
  	while(b%i!=0)
   	{
-  		i++;
+  		j++;
   	}
   	
- 	if(i==b)
+ 	if(j==b)
   	{
 		printf("%d\n",b) ;
 		}
